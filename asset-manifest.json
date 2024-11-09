@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/weatherMate-react-app/static/css/main.71a3a0e6.css",
+    "main.js": "/weatherMate-react-app/static/js/main.e1f87fa6.js",
+    "static/js/453.08507431.chunk.js": "/weatherMate-react-app/static/js/453.08507431.chunk.js",
+    "index.html": "/weatherMate-react-app/index.html",
+    "main.71a3a0e6.css.map": "/weatherMate-react-app/static/css/main.71a3a0e6.css.map",
+    "main.e1f87fa6.js.map": "/weatherMate-react-app/static/js/main.e1f87fa6.js.map",
+    "453.08507431.chunk.js.map": "/weatherMate-react-app/static/js/453.08507431.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71a3a0e6.css",
+    "static/js/main.e1f87fa6.js"
+  ]
+}
