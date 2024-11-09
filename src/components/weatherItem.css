@@ -1,0 +1,129 @@
+/* weatheritem.css */
+
+/* Center the main weather card */
+.weather-card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    padding: 0 15px;
+  }
+  
+  /* Card styling */
+  .weather-card {
+    max-width: 540px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+  }
+  
+  .weather-card-body {
+    padding: 1rem;
+  }
+  
+  /* Styling for the left section with the icon and condition */
+  .weather-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+    padding: 1rem;
+  }
+  
+  .weather-icon-container img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .weather-icon-container p {
+    margin: 0;
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  /* Card title styling */
+  .weather-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Temperature display */
+  .weather-temperature {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #007bff;
+    margin: 0.5rem 0;
+  }
+  
+  /* Additional weather details */
+  .weather-details {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .weather-details small {
+    display: block;
+    margin-top: 0.25rem;
+  }
+  
+  /* Last updated text */
+  .weather-last-updated {
+    font-size: 0.8rem;
+    color: #adb5bd;
+    margin-top: 0.5rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .weather-card {
+      flex-direction: column;
+      max-width: 100%;
+    }
+  
+    .weather-card-title {
+      font-size: 1.25rem;
+    }
+  
+    .weather-temperature {
+      font-size: 1.2rem;
+    }
+  
+    .weather-icon-container img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .weather-details,
+    .weather-last-updated {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .weather-card-container {
+      margin-top: 80px;
+      padding: 0 10px;
+    }
+  
+    .weather-card-title {
+      font-size: 1.1rem;
+    }
+  
+    .weather-temperature {
+      font-size: 1rem;
+    }
+  
+    .weather-icon-container img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .weather-details,
+    .weather-last-updated {
+      font-size: 0.75rem;
+    }
+  }
+  
